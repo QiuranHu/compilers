@@ -3,7 +3,7 @@ package qiuran.SimpleLexicalAnalyzer;
 public class SimpleLexicalAnalyzer {
     public static void main(String[] args) {
         SimpleLexicalAnalyzer simpleLexicalAnalyzer = new SimpleLexicalAnalyzer();
-        String str = "int a = b + 1c;";
+        String str = "function(a){int a=b+1c;}";
         simpleLexicalAnalyzer.parse(str);
     }
 
